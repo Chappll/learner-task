@@ -11,8 +11,6 @@ function UpdateForm({learner,learnerId,editLearner}) {
     const [showAlert, setAlert] = React.useState(false)
     const [alertType, setAlertType] = React.useState("success")
 
-   // {FirstName: fName, Email: email, Score: score, LastName: lName}
-   console.log(editLearner)
 
     function checkBeforeAdd(event)
     {

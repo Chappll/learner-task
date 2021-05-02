@@ -10,8 +10,6 @@ function App() {
  const [loading,setLoading] = useState(false)
  const ref = firebase.firestore().collection("learners")
 
-// <LearnerDetails learner={learner} n={calcAvgScore()}></LearnerDetails> 
-
 const getLearners = () => {
   setLoading(true)
   ref.onSnapshot((querySnapshot) => {
@@ -29,13 +27,11 @@ const getLearners = () => {
 
 useEffect(() => {
   getLearners()
-  // eslint-disable-next-line
 }, []);
 
   // ADD FUNCTION
   const addLearner = (newLearner) => {
     ref
-      //.doc() use if for some reason you want that firestore generates the id
       .doc()
       .set(newLearner)
       .catch((err) => {

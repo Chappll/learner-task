@@ -12,7 +12,6 @@ function AddForm({newLearner}) {
     const [showAlert, setAlert] = React.useState(false)
     const [alertType, setAlertType] = React.useState("success")
 
-   // {FirstName: fName, Email: email, Score: score, LastName: lName}
 
     function checkBeforeAdd(event)
     {
