@@ -10,5 +10,5 @@ All learners with their scores are shown underneath the adding form. These will 
 # Updating
 The Update button can be clicked to show another form which is almost identical to the adding form however it will show the existing values and will update the currently selected learner instead of creating a new one. (Code Found in UpdateForm)
 
-# DataBase
+# Database
 Found at https://console.firebase.google.com/u/0/project/learner-d394c/firestore/data~2Flearners
