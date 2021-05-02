@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import firebase from "./firebase";
 import LearnerMenu from "./Components/LearnerMenu";
@@ -71,7 +70,6 @@ useEffect(() => {
   return (
     <div>
       <header>
-      
       
       <LearnerMenu  newLearner={addLearner} ></LearnerMenu>
       <div className='Score'>

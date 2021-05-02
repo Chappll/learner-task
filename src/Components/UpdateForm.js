@@ -22,7 +22,7 @@ function UpdateForm({learner,learnerId,editLearner}) {
             valid = false 
         }
         if (!re.test(email)) {
-            valid = false 
+            valid = false
         }
         if (valid) {
             console.log("Adding to database")

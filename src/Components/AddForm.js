@@ -2,7 +2,6 @@ import React from 'react'
 import { Slider } from '@material-ui/core';
 import { Button } from '@material-ui/core';
 import { Alert } from '@material-ui/lab';
-import { AlertTitle } from '@material-ui/lab';
 import './css/Menu.css'
 
 function AddForm({newLearner}) {

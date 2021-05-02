@@ -5,9 +5,6 @@ import AddForm from './AddForm'
 
 
 const LearnerMenu = ({newLearner}) => {
-    const onClick = () => {
-        
-    }
 
     return (
         <div className='Menu'>
