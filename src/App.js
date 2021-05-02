@@ -27,6 +27,7 @@ const getLearners = () => {
 
 useEffect(() => {
   getLearners()
+  // eslint-disable-next-line
 }, []);
 
   // ADD FUNCTION
