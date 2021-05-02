@@ -1,5 +1,5 @@
 # learner-task
- Dynamic System for adding users with their score 
+ Dynamic System for adding users with their score. Run on local host with npm run start 
 
 # Adding
 the form at the top is used to add new learners to the database. An alert will be given based on whether this was sucessful or not. (Code found in LearnerMenu/AddForm)
